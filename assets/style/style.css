@@ -1,0 +1,105 @@
+body, html{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(247, 77, 77);
+    margin: 0;
+}
+
+canvas{
+    display: block;
+}
+
+#particles-js{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0%;
+}
+.containerMain{
+    position: absolute;
+   top: 5%;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 500px;
+}
+.container2{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(236, 115, 115, 0.7);
+    text-align: center;
+    display: none;
+    margin-right: 0;
+}
+.container3{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.box{
+    text-align: left;
+}
+
+.fa-times{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+    font-size: 50px;
+    transition: all .5s;
+}
+
+.fa-times:hover{
+    transform: rotate(180deg);
+
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+h2{
+    padding-left: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+#title{
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    border: none;
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: all .5s;
+}
+
+
+
+h6{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    text-transform: uppercase;
+}
+
+@media(max-width: 500px){
+    .containerMain{
+        width: 360px;
+    }
+    .container2{
+        width: 360px;
+    }
+}
